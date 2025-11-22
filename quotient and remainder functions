@@ -1,0 +1,8 @@
+def my_function(dividend,divisor):
+    return dividend/divisor,dividend%divisor
+dividend=int(input("enter the dividend value:"))
+divisor=int(input("enter the divisor value:"))
+if divisor==0:
+    print("error! quotient and remainder not possible")
+else:
+    print("quotient and remainder =",my_function(dividend,divisor))
