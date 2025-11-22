@@ -1,0 +1,5 @@
+def my_function(n):
+    result="even number"if n%2==0 else "odd number"
+    return result
+n=int(input("enter the number:"))
+print(my_function(n))
