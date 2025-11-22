@@ -1,0 +1,5 @@
+def my_function(s):
+    s.clear()
+    return s
+s=[1,2,3,4,5]
+print("cleared list =",my_function(s))
