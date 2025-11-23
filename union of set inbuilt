@@ -1,0 +1,4 @@
+s={1,2,3,4,5}
+s1={4,5,6,7,8}
+s3=s.union(s1)
+print("union of set =",s3)
