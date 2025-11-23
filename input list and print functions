@@ -1,0 +1,8 @@
+def my_function(n,s):
+    for i in range(n):
+        n1=int(input(f"enter the {i+1} value:"))
+        s.append(n1)
+    return s
+n=int(input("enter the size of list:"))
+s=[]
+print("list =",my_function(n,s))
