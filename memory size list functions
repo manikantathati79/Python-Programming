@@ -1,0 +1,5 @@
+import sys
+def my_function(s):
+    return sys.getsizeof(s)
+s=[1,2,3,4,5]
+print("get size =",my_function(s))
